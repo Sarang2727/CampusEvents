@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.button {
+    background: rgb(35, 163, 249);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.ce {
+    background-color: black;
+    color: aliceblue;;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.events {
+      display: flex;
+       
+
+}
+
+.events-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.events-heading h2,
+.events-heading p {
+    margin-top: 0;
+}
+
+.view {
+    flex-shrink: 0;
+}
+.icon{
+     background: rgb(35, 163, 249);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+#home{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
